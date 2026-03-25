@@ -1,0 +1,10 @@
+{
+    "name": "Cat Search",
+    "version": "0.1.0",
+    "description": "Search the internet using Google and get a list of web pages with titles, descriptions, and links.",
+    "author_name": "Matteo Cacciola",
+    "author_url": "https://github.com/matteocacciola",
+    "plugin_url": "https://github.com/matteocacciola/cat-search",
+    "tags": "google, search",
+    "thumb": "https://raw.githubusercontent.com/matteocacciola/cat-search/main/thumb.png"
+}
