@@ -7,13 +7,13 @@ from googlesearch import search
     "Search on google: Who won the FIFA World Cup in 2018?",
     "Search on google: What are the latest advancements in AI technology?"
 ])
-def google_search(query, cat):
+async def google_search(query, cat):
     """
     When a user asks you to "search on google" always use this tool.
     Input is the query.
     """
     # Load settings
-    settings = cat.mad_hatter.get_plugin().load_settings()
+    settings = await cat.mad_hatter.get_plugin().load_settings()
     num_results = settings["number_of_results"]
     lang = settings["language"]
 
